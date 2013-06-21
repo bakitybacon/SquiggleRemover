@@ -1,0 +1,34 @@
+LENGTH
+
+wc -c purgesquiggles.pl -> 363
+wc -c PurgeSquiggles.hs -> 840
+wc -c PurgeSquiggles.java -> 1068
+
+TIME (0 deleted files)
+time java PurgeSquiggles
+
+real	0m2.825s
+user	0m0.933s
+sys	0m0.962s
+
+
+time ./PurgeSquiggles  --Haskell
+
+real	0m0.830s
+user	0m0.203s
+sys	0m0.276s
+
+
+time perl purgesquiggles.pl
+
+real	0m0.690s
+user	0m0.066s
+sys	0m0.259s
+
+
+
+
+
+
+
+
